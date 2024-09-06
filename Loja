@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Online - Página Inicial</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            background: url('https://via.placeholder.com/1600x600') no-repeat center center;
+            background-size: cover;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+        .hero h2 {
+            font-size: 3em;
+            margin: 0;
+        }
+        .hero p {
+            font-size: 1.5em;
+            margin: 20px 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .categories {
+            display: flex;
+            justify-content: space-between;
+            margin: 40px 0;
+        }
+        .category {
+            flex: 1;
+            margin: 0 10px;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .category img {
+            width: 100%;
+            height: auto;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Loja Online</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Produtos</a></li>
+                <li><a href="#">Sobre Nós</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Descubra Nossos Produtos Incríveis</h2>
+            <p>Encontre tudo o que você precisa com ofertas especiais e qualidade garantida.</p>
+            <a href="#" style="color: #fff; background-color: #4CAF50; padding: 10px 20px; text-decoration: none; border-radius: 5px;">Ver Ofertas</a>
+        </div>
+    </section>
+
+    <div class="container">
+        <h2>Categorias Populares</h2>
+        <div class="categories">
+            <div class="category">
+                <img src="https://via.placeholder.com/400x300" alt="Categoria 1">
+                <h3>Categoria 1</h3>
+                <p>Explore produtos da nossa primeira categoria.</p>
+            </div>
+            <div class="category">
+                <img src="https://via.placeholder.com/400x300" alt="Categoria 2">
+                <h3>Categoria 2</h3>
+                <p>Descubra os itens especiais na segunda categoria.</p>
+            </div>
+            <div class="category">
+                <img src="https://via.placeholder.com/400x300" alt="Categoria 3">
+                <h3>Categoria 3</h3>
+                <p>Encontre ótimas opções na nossa terceira categoria.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Loja Online. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
